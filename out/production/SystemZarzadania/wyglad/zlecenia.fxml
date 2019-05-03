@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="531.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar layoutX="-1.0" layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Plik">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Otwórz" />
+                  <MenuItem mnemonicParsing="false" text="Nowe Zlecenie" />
+                  <MenuItem mnemonicParsing="false" text="Zapisz" />
+                  <MenuItem mnemonicParsing="false" text="Zamknij" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edycja">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Pomoc">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Text layoutX="14.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zlecenie " wrappingWidth="58.13671875" />
+      <TextField layoutX="106.0" layoutY="53.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="82.0" promptText="nr zlecenia" />
+      <Text layoutX="14.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zamawiający:" />
+      <DatePicker layoutX="221.0" layoutY="53.0" prefHeight="25.0" prefWidth="127.0" promptText="data przyjecia" />
+      <DatePicker layoutX="363.0" layoutY="53.0" prefHeight="25.0" prefWidth="127.0" promptText="termin realizacji" />
+      <Separator layoutX="-1.0" layoutY="91.0" prefHeight="3.0" prefWidth="600.0" />
+      <TextField layoutX="103.0" layoutY="122.0" prefHeight="25.0" prefWidth="413.0" promptText="imię,nazwisko,nazwa firmy" />
+      <MenuButton layoutX="490.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="11.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Dodaj i wstaw " />
+          <MenuItem mnemonicParsing="false" text="..." />
+        </items>
+      </MenuButton>
+      <Text layoutX="106.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIP:" />
+      <TextField layoutX="141.0" layoutY="157.0" prefHeight="25.0" prefWidth="127.0" />
+      <Text layoutX="271.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PESEL:" />
+      <TextField layoutX="310.0" layoutY="157.0" prefHeight="25.0" prefWidth="127.0" />
+      <Text layoutX="104.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adres:" />
+      <TextField layoutX="141.0" layoutY="196.0" prefHeight="25.0" prefWidth="381.0" promptText="miasto,ulica,nr domu i lokalu, kod pocztowy" />
+      <Text layoutX="14.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opis zlecenia:" />
+      <TextArea layoutX="103.0" layoutY="266.0" prefHeight="123.0" prefWidth="413.0" promptText="krótka informacja na temat usterki,wymiany,naprawy" />
+      <Button layoutX="422.0" layoutY="404.0" mnemonicParsing="false" text="Dodaj zlecenie" />
+      <Button layoutX="16.0" layoutY="404.0" mnemonicParsing="false" text="Wstecz" />
+      <Separator layoutX="7.0" layoutY="242.0" prefHeight="3.0" prefWidth="600.0" />
+   </children>
+</Pane>
