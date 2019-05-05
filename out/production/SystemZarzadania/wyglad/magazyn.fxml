@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontrolery.Magazyn">
+   <children>
+      <TableView layoutX="118.0" prefHeight="400.0" prefWidth="482.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="118.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn prefWidth="46.0" text="Id" />
+          <TableColumn prefWidth="216.0" text="Nazwa" />
+            <TableColumn prefWidth="81.0" text="Cena Netto" />
+            <TableColumn prefWidth="82.0" text="Cena Brutto" />
+            <TableColumn minWidth="0.0" prefWidth="56.0" text="Stan" />
+        </columns>
+      </TableView>
+      <Button layoutX="-1.0" layoutY="122.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" text="Dodaj" AnchorPane.leftAnchor="-1.0">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Button>
+      <Button layoutX="-1.0" layoutY="183.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" text="Szukaj" AnchorPane.leftAnchor="-1.0">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Button>
+      <Button layoutX="-1.0" layoutY="243.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" text="Usuń">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Button>
+      <Button layoutX="-2.0" layoutY="309.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" text="Zmień">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

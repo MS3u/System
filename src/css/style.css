@@ -1,3 +1,4 @@
+
 .button:hover{
     -fx-background-color: #00ff6c;
     -fx-border-color: transparent;
@@ -6,4 +7,8 @@
 }
 .button {
     -fx-background-color: transparent;
+    -fx-font-size: 15;
+
+
+;
 }

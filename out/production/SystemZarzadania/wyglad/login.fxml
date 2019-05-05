@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.PasswordField?>
@@ -9,9 +14,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="794.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontrolery.Login">
+<AnchorPane style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontrolery.Login">
    <children>
-      <VBox alignment="TOP_CENTER" layoutX="215.0" layoutY="79.0" prefHeight="409.0" prefWidth="323.0">
+      <VBox alignment="TOP_CENTER" layoutX="215.0" layoutY="79.0" AnchorPane.bottomAnchor="79.0" AnchorPane.leftAnchor="215.0" AnchorPane.rightAnchor="215.0" AnchorPane.topAnchor="79.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="71.13671875">
                <font>
@@ -53,4 +58,7 @@
          </padding>
       </VBox>
    </children>
+   <padding>
+      <Insets top="10.0" />
+   </padding>
 </AnchorPane>
