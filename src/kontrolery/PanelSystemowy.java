@@ -19,36 +19,38 @@ public class PanelSystemowy implements Initializable {
     private BorderPane borderPane;
 
 
-
-
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
     }
 
-@FXML
+    public void open(String nazwa) throws IOException {
+        Parent noweOkno = FXMLLoader.load(getClass().getResource("/wyglad/"+nazwa+".fxml"));
+        borderPane.setCenter(noweOkno);
+
+    }
+    @FXML
+    private void openFaktury(ActionEvent event) throws IOException {
+        open("faktury");
+
+    }
+    @FXML
     private void openZlecenia(javafx.event.ActionEvent event) throws IOException {
 
-        Parent zlecenia = FXMLLoader.load(getClass().getResource("/wyglad/zlecenia.fxml"));
-        borderPane.setCenter(zlecenia);
-
-
+        open("zlecenia");
 
 
     }
 
-@FXML
-    public void openMagazyn(ActionEvent event) throws IOException{
-        Parent magazyn = FXMLLoader.load(getClass().getResource("/wyglad/magazyn.fxml"));
-        borderPane.setCenter(magazyn);
+    @FXML
+    public void openMagazyn(ActionEvent event) throws IOException {
+        open("Magazyn");
 
         event.getEventType();
     }
 
-@FXML
+    @FXML
     public void openAdministracja(ActionEvent event) throws IOException {
-        Parent administracja = FXMLLoader.load(getClass().getResource("/wyglad/administracja.fxml"));
-        borderPane.setCenter(administracja);
+        open("administracja");
     }
 }

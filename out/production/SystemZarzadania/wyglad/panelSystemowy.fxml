@@ -10,7 +10,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-
 <AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontrolery.PanelSystemowy">
    <children>
       <BorderPane fx:id="borderPane" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
@@ -22,7 +21,7 @@
                         <Insets top="15.0" />
                      </VBox.margin>
                   </Button>
-                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="200.0" mnemonicParsing="false" onAction="#openZlecenia" prefHeight="88.0" prefWidth="112.0" styleClass="style.css" stylesheets="@../css/style.css" text="Faktury">
+                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="200.0" mnemonicParsing="false" onAction="#openFaktury" prefHeight="88.0" prefWidth="112.0" styleClass="style.css" stylesheets="@../css/style.css" text="Faktury">
                      <VBox.margin>
                         <Insets top="15.0" />
                      </VBox.margin>
