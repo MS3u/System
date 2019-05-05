@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="projekt@localhost" uuid="704be9ec-5085-4eac-8cd1-068eb159c276">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="0169b515-3215-48bd-91c5-df8a77b3c5ac">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Toyo/IdeaProjects/System/src/hibernate.cfg.xml</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/projekt</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
       </driver-properties>
     </data-source>
   </component>

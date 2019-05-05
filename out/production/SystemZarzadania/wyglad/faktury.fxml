@@ -6,9 +6,19 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="kontrolery.Faktury"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="408.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontrolery.Faktury">
+   <children>
+      <TableView layoutX="90.0" prefHeight="353.0" prefWidth="503.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Id" />
+          <TableColumn prefWidth="282.0" text="Nazwa Klienta" />
+            <TableColumn prefWidth="66.0" text="Data" />
+            <TableColumn prefWidth="78.0" text="Nr Faktury" />
+        </columns>
+      </TableView>
+      <Button layoutX="1.0" layoutY="62.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Szukaj" />
+      <Button layoutX="2.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Usuń" />
+      <Button layoutX="2.0" layoutY="164.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Generuj PDF" />
+   </children>
 </AnchorPane>

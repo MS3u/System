@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/704be9ec-5085-4eac-8cd1-068eb159c276.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/704be9ec-5085-4eac-8cd1-068eb159c276.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_2_5_4_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SystemZarzadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SystemZarzadania.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemZarzadania/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemZarzadania/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemZarzadania/kontrolery/Administracja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemZarzadania/kontrolery/Administracja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemZarzadania/wyglad/administracja.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemZarzadania/wyglad/administracja.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemZarzadania/wyglad/faktury.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemZarzadania/wyglad/faktury.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemZarzadania/wyglad/magazyn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemZarzadania/wyglad/magazyn.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kontrolery/Administracja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kontrolery/Administracja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wyglad/administracja.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/wyglad/administracja.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wyglad/faktury.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/wyglad/faktury.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wyglad/magazyn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/wyglad/magazyn.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wyglad/panelSystemowy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/wyglad/panelSystemowy.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,25 +46,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="projekt@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="projekt@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="projekt@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="projekt: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="projekt@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="projekt: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -100,49 +106,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/style.css">
+        <entry file="file://$PROJECT_DIR$/src/kontrolery/Faktury.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="33" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wyglad/login.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/kontrolery/Rejestracja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wyglad/panelSystemowy.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wyglad/magazyn.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/kontrolery/PanelSystemowy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="115">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,17 +127,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wyglad/faktury.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/kontrolery/Administracja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://704be9ec-5085-4eac-8cd1-068eb159c276/schema/projekt/table/users">
+        <entry file="file://$PROJECT_DIR$/src/hybernate/UsersEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hybernate/MagazynEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://0169b515-3215-48bd-91c5-df8a77b3c5ac/schema/projekt/table/magazyn">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -170,27 +184,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kontrolery/Faktury.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <entry file="das://0169b515-3215-48bd-91c5-df8a77b3c5ac/schema/projekt/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wyglad/administracja.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -199,9 +198,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
-        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -239,6 +238,10 @@
         <option value="$PROJECT_DIR$/src/kontrolery/Login.java" />
         <option value="$PROJECT_DIR$/src/wyglad/faktury.fxml" />
         <option value="$PROJECT_DIR$/src/kontrolery/PanelSystemowy.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/hybernate/UsersEntity.java" />
+        <option value="$PROJECT_DIR$/src/kontrolery/Administracja.java" />
       </list>
     </option>
   </component>
@@ -280,13 +283,7 @@
               <item name="System" type="b2602c69:ProjectViewProjectNode" />
               <item name="System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kontrolery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wyglad" type="462c0819:PsiDirectoryNode" />
+              <item name="hybernate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="System" type="b2602c69:ProjectViewProjectNode" />
@@ -305,6 +302,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="0169b515-3215-48bd-91c5-df8a77b3c5ac" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
@@ -314,29 +312,33 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557060580801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557065723431" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HSQLDB" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../zleceniaJavaFx" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hybernate" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Toyo\IdeaProjects\SystemZarzadania\src\wyglad" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="hybernate" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Toyo\IdeaProjects\SystemZarzadania\src\wyglad" />
       <recent name="C:\Users\Toyo\IdeaProjects\SystemZarzadania\src\kontrolery" />
       <recent name="C:\Users\Toyo\IdeaProjects\SystemZarzadania\src\com\okna" />
       <recent name="C:\Users\Toyo\IdeaProjects\SystemZarzadania\src\com\main" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Toyo\IdeaProjects\SystemZarzadania\src\wyglad" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,17 +478,18 @@
       <workItem from="1556777823220" duration="17304000" />
       <workItem from="1556880226516" duration="5402000" />
       <workItem from="1556964550239" duration="15641000" />
-      <workItem from="1557059588445" duration="989000" />
+      <workItem from="1557059588445" duration="6295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76494000" />
+    <option name="totallyTimeSpent" value="81800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19509594" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68151146" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,10 +497,9 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
-      <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3779264" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17391305" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,21 +512,22 @@
       <window_info anchor="bottom" id="Event Log" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" weight="0.32998884" />
       <window_info anchor="bottom" id="Terminal" order="16" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="17" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.11513859" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Maven" order="7" weight="0.3283582" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" auto_hide="true" id="Persistence" order="11" sideWeight="0.31848854" weight="0.19509594" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,16 +583,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/awt/resources/awt.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kontrolery/Rejestracja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wyglad/rejestracja.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -616,13 +609,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
     <entry file="file://$PROJECT_DIR$/hibernate/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/hibernate/src/hibernate.cfg.xml" />
-    <entry file="file://$PROJECT_DIR$/src/kontrolery/Administracja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kontrolery/Magazyn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -637,13 +623,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -675,36 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kontrolery/Faktury.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://704be9ec-5085-4eac-8cd1-068eb159c276/schema/projekt/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wyglad/administracja.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wyglad/faktury.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -731,6 +684,125 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wyglad/faktury.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemZarzadania.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wyglad/administracja.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kontrolery/Faktury.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kontrolery/Rejestracja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bd2c04c6-6aca-4f23-bb5a-4245b25af9f3/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kontrolery/Administracja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0169b515-3215-48bd-91c5-df8a77b3c5ac/schema/projekt/table/magazyn">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/bf203608/hibernate.cfg.xml/SystemZarzadania/hibernate/Hibernate/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/bf203608/hibernate.cfg.xml/SystemZarzadania/hibernate/Hibernate/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="0.0" y="184.0">Magazyn#file://C:/Users/Toyo/IdeaProjects/System/src/hybernate/Magazyn.java</node>
+            <node x="0.0" y="0.0">UsersEntity#file://C:/Users/Toyo/IdeaProjects/System/src/hybernate/UsersEntity.java</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-128.0" y="-29.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0169b515-3215-48bd-91c5-df8a77b3c5ac/schema/projekt/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hybernate/Magazyn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hybernate/UsersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hybernate/MagazynEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -787,12 +859,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SystemZarzadania</last-edited>
+          <last-edited>Hibernate|SystemZarzadania</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
