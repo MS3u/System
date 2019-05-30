@@ -7,14 +7,13 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import java.io.IOException;
 
 public class Login {
 
 @FXML
-    public void rejestracja(MouseEvent event) {
+    public void openrejestracja(MouseEvent event) {
         Parent root = null;
         try {
             root = FXMLLoader.load(getClass().getResource("/wyglad/rejestracja.fxml"));
@@ -27,6 +26,8 @@ public class Login {
     }
 
     public void openPanelSystemowy(ActionEvent event) {
+
+
         Parent root = null;
         try {
             root = FXMLLoader.load(getClass().getResource("/wyglad/panelSystemowy.fxml"));
@@ -36,6 +37,18 @@ public class Login {
         Node node = (Node) event.getSource();
         Stage stage = (Stage)  node.getScene().getWindow();
         stage.setScene(new Scene(root));
+    }
+@FXML
+    public void openRejestracja(MouseEvent event) {
+    Parent root = null;
+    try {
+        root = FXMLLoader.load(getClass().getResource("/wyglad/rejestracja.fxml"));
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+    Node node = (Node) event.getSource();
+    Stage stage = (Stage)  node.getScene().getWindow();
+    stage.setScene(new Scene(root));
     }
 }
 

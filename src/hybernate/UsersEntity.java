@@ -1,26 +1,23 @@
 package hybernate;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "users", schema = "projekt")
+@Table(name = "users")
 public class UsersEntity {
     private int id;
-
-
-
-
-    private String imię;
+    private String imie;
     private String nazwisko;
     private String stanowisko;
+    private String haslo;
 
-    @javax.persistence.Id
-    @Basic
-    @Column(name = "id")
+    public UsersEntity(String imie, String nazwisko, String stanowisko, String haslo) {
+    }
+
+    @Id
+    @GeneratedValue
+    @Column(name = "Id", nullable = false)
     public int getId() {
         return id;
     }
@@ -30,17 +27,17 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "Imię")
-    public String getImię() {
-        return imię;
+    @Column(name = "Imie", nullable = false, length = 30)
+    public String getImie() {
+        return imie;
     }
 
-    public void setImię(String imię) {
-        this.imię = imię;
+    public void setImie(String imie) {
+        this.imie = imie;
     }
 
     @Basic
-    @Column(name = "Nazwisko")
+    @Column(name = "Nazwisko", nullable = false, length = 30)
     public String getNazwisko() {
         return nazwisko;
     }
@@ -50,7 +47,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "Stanowisko")
+    @Column(name = "Stanowisko", nullable = false, length = 30)
     public String getStanowisko() {
         return stanowisko;
     }
@@ -59,19 +56,38 @@ public class UsersEntity {
         this.stanowisko = stanowisko;
     }
 
+    @Basic
+    @Column(name = "Haslo", nullable = false, length = 30)
+    public String getHaslo() {
+        return haslo;
+    }
+
+    public void setHaslo(String haslo) {
+        this.haslo = haslo;
+    }
+
+    public UsersEntity(int id, String imie, String nazwisko, String stanowisko, String haslo) {
+        this.id = id;
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.stanowisko = stanowisko;
+        this.haslo = haslo;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        UsersEntity that = (UsersEntity) o;
-        return id == that.id &&
-                Objects.equals(imię, that.imię) &&
-                Objects.equals(nazwisko, that.nazwisko) &&
-                Objects.equals(stanowisko, that.stanowisko);
+        UsersEntity entity = (UsersEntity) o;
+        return id == entity.id &&
+                Objects.equals(imie, entity.imie) &&
+                Objects.equals(nazwisko, entity.nazwisko) &&
+                Objects.equals(stanowisko, entity.stanowisko) &&
+                Objects.equals(haslo, entity.haslo);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, imię, nazwisko, stanowisko);
+        return Objects.hash(id, imie, nazwisko, stanowisko, haslo);
     }
 }

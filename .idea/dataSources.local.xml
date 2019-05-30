@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="hibernate.cfg.xml/Hibernate" uuid="0169b515-3215-48bd-91c5-df8a77b3c5ac">
+    <data-source name="projekt@localhost" uuid="f49913f2-b1f0-4ecb-89bf-b69b24328ae6">
       <database-info product="MySQL" version="5.5.5-10.1.38-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 )" dbms="MARIADB" exact-version="10.1.38" exact-driver-version="5.1">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>

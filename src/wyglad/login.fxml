@@ -44,7 +44,7 @@
                   <Insets top="30.0" />
                </VBox.margin>
             </Button>
-            <Button layoutX="113.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#rejestracja" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 100px;" text="Rejestracja">
+            <Button layoutX="113.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#openRejestracja" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 100px;" text="Rejestracja">
                <VBox.margin>
                   <Insets top="30.0" />
                </VBox.margin>
